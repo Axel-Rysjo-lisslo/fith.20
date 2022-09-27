@@ -5,7 +5,7 @@ public class fighter
 {
 
 public string namme;
-public int hp;
+public int hp = 100;
 
 public wepons vapen;
 }

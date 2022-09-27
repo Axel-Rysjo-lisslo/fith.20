@@ -15,8 +15,4 @@ Console.WriteLine(p1.vapen.name);
 
 
 
-
-
-
-
 Console.ReadLine();
