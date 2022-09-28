@@ -14,7 +14,8 @@ public void attack(fighter mål)
 
 int damage = vapen.GetDamage();
 mål.hp -= damage;
-mål.hp  = Math.Max
+mål.hp  = Math.Max(0, mål.hp);
+
 
 
 }
