@@ -9,21 +9,8 @@ p2.vapen = new wepons();
 p2.vapen.name ="HOHOHO";
 
 
+Random generator = new Random();
 
-
-
-
-
-
-
-
-int damage = p1.vapen.attack();
-
-
-p2.hp -= damage;
-
-
-Console.WriteLine(p1.vapen.name);
 
 
 
