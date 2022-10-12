@@ -12,6 +12,13 @@ p2.vapen.name ="HOHOHO";
 Random generator = new Random();
 
 
+while (p1.hp > 0 && p2.hp >0 )
+{
+   Console.WriteLine("\n ---- ==== ny rönd === -----");
+
+
+
+}
 
 
 
