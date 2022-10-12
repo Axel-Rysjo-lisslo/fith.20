@@ -27,8 +27,27 @@ Console.ReadKey();
 
 }
 
+Console.WriteLine("\n ------- === ny är det slut === ----------");
 
 
+if (p1.hp == 0 && p2.hp == 0)
+{
+     Console.WriteLine("lika");
+
+}
+else if( p1.hp == 0)
+{
+
+Console.WriteLine($"{p2.name} vann");
+
+}
+else
+{
+
+Console.WriteLine($"{p1.name} vann");
+
+}
 
 
-Console.ReadLine();
+Console.WriteLine("tryck på knapp för att avsluta");
+Console.ReadKey();
