@@ -1,26 +1,28 @@
 using System;
 
-
-
 public class wepons
 {
 
-public int max;
-public int min;
- 
+
+
  public string name;
+private Random generator;
 
-
-private  Random generator = new Random(); 
-
-
-public int attack()
+public wepons()
 {
-return generator.Next(10,20);
 
+generator = new Random();
+
+}
+
+public int GetDamage()
+{
+
+return generator.Next(10,30);
+
+}
 
 } 
 
 
 
-}
